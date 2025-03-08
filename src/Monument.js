@@ -45,7 +45,7 @@ function MonumentPage() {
 
 {showAd && (
         <div className="ad-overlay">
-          <video className="ad-video" autoPlay playsinline muted loop>
+          <video className="ad-video" autoPlay playsinline muted loop preload="auto">
             <source src="https://rr4---sn-bg0e6ne7.googlevideo.com/videoplayback?expire=1741477853&ei=fYPMZ8_oMr-LkucPyMv1kAo&ip=156.237.44.132&id=o-ADvhslVM6iJ9xpejpH4LtmwmNonrwgBby7toWOENBnVV&itag=18&source=youtube&requiressl=yes&xpc=EgVo2aDSNQ%3D%3D&bui=AUWDL3x7qyKMWw3Px4_X74qdxY3Jo_RnxCqFBzEqb6lHzuDZP2AoDrb-t_JmJzOJxKAivB5Hgv3CpQ3U&spc=RjZbSbzK-De2BUvNFf6PaqE-DPCBd-ZoW9GwAkHzLBgr773QcnXMtzVDHf8aSaaRs8pkTDPD&vprv=1&svpuc=1&mime=video%2Fmp4&ns=rJ_OECNo0gBgQoKyW9zza0cQ&rqh=1&cnr=14&ratebypass=yes&dur=27.724&lmt=1696937215554724&lmw=1&fexp=24350590,24350737,24350827,24350961,24351148,24351173,24351275,24351283,24351347,24351349,24351377,51326932,51358316,51411872&c=TVHTML5&sefc=1&txp=6310224&n=6loX7hMfYkCJGw&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cxpc%2Cbui%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Crqh%2Ccnr%2Cratebypass%2Cdur%2Clmt&sig=AJfQdSswRAIgaLGuDeRBYGLK8qVBTrswdiecDSBqnO5esc8IoAKO3awCICmdvoF5M9nptq1-xjpv7R8beQbhuf1fwj08qKlx4Bj5&rm=sn-gjo-w43s7e&rrc=79,80&req_id=627788465b2fa3ee&redirect_counter=2&cm2rm=sn-ab5ely76&cms_redirect=yes&cmsv=e&met=1741456258,&mh=EM&mip=181.91.217.137&mm=34&mn=sn-bg0e6ne7&ms=ltu&mt=1741455875&mv=m&mvi=4&pl=21&rms=ltu,au&lsparams=met,mh,mip,mm,mn,ms,mv,mvi,pl,rms&lsig=AFVRHeAwRQIhAOHF1yRF-lsyyugT1N6Los_1oudn-RZNBpvw8U4r-fBLAiA92rjEzQvmdtuup7YdCr_3-CUIFaCe1Xw8nwx1NOEEow%3D%3D" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
