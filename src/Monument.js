@@ -12,7 +12,7 @@ const mockMonumentData = {
     description:
         "Paso de la Patria es un destino turístico famoso por sus playas de arena dorada y aguas cristalinas. Es un lugar ideal para el descanso, la pesca deportiva y los deportes acuáticos.",
     history:
-        "Paso de la Patria tiene una gran importancia histórica y cultural en Corrientes. Durante la Guerra de la Triple Alianza, fue un punto estratégico y hoy en día es un atractivo turístico que combina historia y naturaleza.",
+        "Estas playas están completamente habilitadas y cuentan con la vigilancia de guardavidas altamente capacitados, quienes se dedican a garantizar la seguridad de todos los visitantes. Con su presencia, podrás relajarte y disfrutar del sol y el río con total tranquilidad.",
     imageUrl: image, // Imagen representativa del lugar
     qrCodeLink: "https://example.com/monumento/paso-de-la-patria", // Enlace ficticio para la página del monumento
 };
@@ -67,7 +67,7 @@ function MonumentPage() {
             <section className="monument-details">
                 <img src={monument.imageUrl} alt={monument.name} className="monument-image" />
                 <p className="monument-description">{monument.description}</p>
-                <h3>Historia</h3>
+                <h3>Bahia Punta Mitre</h3>
                 <p className="monument-description">{monument.history}</p>
             </section>
 
