@@ -5,7 +5,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/monument" element={<MonumentPage/>}/>
+        <Route path="/" element={<MonumentPage/>}/>
       </Routes>
     </Router>
   );
