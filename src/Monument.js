@@ -24,7 +24,14 @@ function MonumentPage() {
   const handleAdClose = () => {
     setShowAd(false);
   };
-
+  useEffect(() => {
+    const video = document.querySelector('.ad-video');
+    if (video) {
+      video.play().catch((error) => {
+        console.log('Autoplay failed:', error);
+      });
+    }
+  }, []);
     useEffect(() => {
         // Here you would fetch the monument data by its ID or QR code
         // For now, we'll just use the mock data
